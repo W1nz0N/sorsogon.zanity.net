@@ -1,106 +1,282 @@
+
+	<!-- Coded by N16H7 CR4WL3R -->
 <!DOCTYPE html>
-<html >
-<link rel="SHORTCUT ICON" href="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Anonymous_emblem.svg/1200px-Anonymous_emblem.svg.png" type="image/jpg"/> 
-<meta name="Author" content="CYB3R 4NON PH"/>
-<meta name="copyright" content="CYB3R 4NON PH"/>
-<meta name="description" content="We are Anonymous, We are legion, We don't forgive, We don't forget, United as one, Divided by zero, Expect us."/>
-<meta name="keywords" content="CYB3R 4NON PH - SECURITY TESTERS"/>
-<script>
-farbbibliothek = new Array(); 
-farbbibliothek[0] = new Array("#FF0000","#FF1100","#FF2200","#FF3300","#FF4400","#FF5500","#FF6600","#FF7700","#FF8800","#FF9900","#FFaa00","#FFbb00","#FFcc00","#FFdd00","#FFee00","#FFff00","#FFee00","#FFdd00","#FFcc00","#FFbb00","#FFaa00","#FF9900","#FF8800","#FF7700","#FF6600","#FF5500","#FF4400","#FF3300","#FF2200","#FF1100"); 
-farbbibliothek[1] = new Array("#00FF00","#000000","#00FF00","#00FF00"); 
-farbbibliothek[2] = new Array("#00FF00","#FF0000","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00"); 
-farbbibliothek[3] = new Array("#FF0000","#FF4000","#FF8000","#FFC000","#FFFF00","#C0FF00","#80FF00","#40FF00","#00FF00","#00FF40","#00FF80","#00FFC0","#00FFFF","#00C0FF","#0080FF","#0040FF","#0000FF","#4000FF","#8000FF","#C000FF","#FF00FF","#FF00C0","#FF0080","#FF0040"); 
-farbbibliothek[4] = new Array("#FF0000","#EE0000","#DD0000","#CC0000","#BB0000","#AA0000","#990000","#880000","#770000","#660000","#550000","#440000","#330000","#220000","#110000","#000000","#110000","#220000","#330000","#440000","#550000","#660000","#770000","#880000","#990000","#AA0000","#BB0000","#CC0000","#DD0000","#EE0000"); 
-farbbibliothek[5] = new Array("#000000","#000000","#000000","#FFFFFF","#FFFFFF","#FFFFFF"); 
-farbbibliothek[6] = new Array("#0000FF","#FFFF00"); 
-farben = farbbibliothek[4];
-function farbschrift() 
-{ 
-for(var i=0 ; i<Buchstabe.length; i++) 
-{ 
-document.all["a"+i].style.color=farben[i]; 
-} 
-farbverlauf(); 
-} 
-function string2array(text) 
-{ 
-for(var i=0 ; i<Buchstabe.length; i++) 
-{ 
-document.all["a"+i].style.color=farben[i]; 
-} 
-farbverlauf(); 
-} 
-function string2array(text) 
-{ 
-Buchstabe = new Array(); 
-while(farben.length<text.length) 
-{ 
-farben = farben.concat(farben); 
-} 
-k=0; 
-while(k<=text.length) 
-{ 
-Buchstabe[k] = text.charAt(k); 
-k++; 
-} 
-} 
-function divserzeugen() 
-{ 
-for(var i=0 ; i<Buchstabe.length; i++) 
-{ 
-document.write("<span id='a"+i+"' class='a"+i+"'>"+Buchstabe[i] + "</span>"); 
-} 
-farbschrift(); 
-} 
-var a=1; 
-function farbverlauf() 
-{ 
-for(var i=0 ; i<farben.length; i++) 
-{ 
-farben[i-1]=farben[i]; 
-} 
-farben[farben.length-1]=farben[-1]; 
-
-setTimeout("farbschrift()",30); 
-} 
-// 
-var farbsatz=1; 
-function farbtauscher() 
-{ 
-farben = farbbibliothek[farbsatz]; 
-while(farben.length<text.length) 
-{ 
-farben = farben.concat(farben); 
-} 
-farbsatz=Math.floor(Math.random()*(farbbibliothek.length-0.0001)); 
-} 
-setInterval("farbtauscher()",5000); 
-text= "S173 H4S B33N P4WN3D BY CYB3R  4NON  PH" ; //h 
-string2array(text);
-divserzeugen(); 
-//document.write(text); 
-</script>
-	<head>
-		<title>H4CK3D BY CYB3R 4NON PH</title>
-		<style> body{text-align: center; background-color: black;}img{text-align: center;}h1{color: black;text-align: center;font-family: Courier; text-shadow: 3px 2px 5px white;}h3{color: red;text-align: center;font-family: Courier;text-shadow: 2px 1px 3px white}h4{color: grey;text-align: center;font-family: Courier;}h5{color: white;text-align: center;font-family: Courier;text-shadow: 2px 1px 3px red}#kotak{width: 100%;height: 35px;background-color: gray;}#text{padding-top: 2px;font-size: 20px; color: black;font-family: Courier;text-shadow: 1px 1px 1px red;}</style>
-	</head><br>
-    <body bgcolor="black" background="https://1.bp.blogspot.com/-6CsOJUHaxzU/UO7H1jfxWGI/AAAAAAAACHo/Wa2ajy8IgF0/s1600/storm.gif">
-    <img src="https://i.ibb.co/6bb7fp8/CAPH.png" alt="CAPH" style="width:500px;height:500px;"><br>
-	<img src='https://media.giphy.com/media/MJttD4oi3Hg4M/giphy.gif'>
-	<h1><b>H4CK3D BY CYB3R 4NON PH</b></h1>
-	<h3>We are here to warn you<br>That your site security is too weak!<br>Patch it as soon as possible or else <br>We will come back to crash down your site!</h3>
-	<h4><pre><font size="5.9px">Anonymous is not a Group
-Anonymous is not an Organization
-Anonymous is an Idea
-and ideas are Bulletproof
-
-We are Anonymous, We are Legion, We do not Forgive,
-We do not Forget, United as One, Divided by Zero, 
-Expect Us!
-</font></pre></h4>
-	<h5>Greetings to All Hackers out there.<br>More Power Pinoy Hackers!!!</h5><br>
-	<div id='kotak'>
-	<marquee id='text'><b>[ BOSS_4NON ]--[ MR.KRUN6ZX ]--[ DR.V ]--[ F173 D373C70R ]--[ COO7BOYM4N ]--[ P3DR0 ]--[ SYST3M CR4SH ]--[ C0VID19 ]--[ YOU ]</b></marquee></div>
-	</body>
+<html>
+  <head>
+    <title>P4WN3D BY N16H7 CR4WL3R</title>
+    <script language="Javascript">
+      var msg = "Learn and Discover... Dont Copy!!";
+      
+      function rtclickcheck(keyp) {
+          if (navigator.appName == "Netscape" && keyp.which == 3) {
+              alert(msg);
+              return false;
+          }
+          if (navigator.appVersion.indexOf("MSIE") != -1 && event.button == 2) {
+              alert(msg);
+              return false;
+          }
+      }
+      document.onmousedown = rtclickcheck
+    </script>
+    <script language="JavaScript">
+      function tb5_makeArray(n) {
+          this.length = n;
+          return this.length;
+      }
+      tb5_messages = new tb5_makeArray(7);
+      tb5_messages[0] = "This Site";
+      tb5_messages[1] = "Has been Hacked";
+      tb5_messages[2] = "We Are PNCRTG";
+      tb5_messages[3] = "I AM N16H7 CR4WL3R";
+      tb5_messages[4] = "Site Security Is Low";
+      tb5_messages[5] = "You Can't Stop Us";
+      tb5_messages[6] = "P4WN3D BY N16H7 CR4WL3R";
+      tb5_rptType = 'infinite';
+      tb5_rptNbr = 20;
+      tb5_speed = 30;
+      tb5_delay = 2000;
+      var tb5_counter = 2;
+      var tb5_currMsg = 0;
+      var tb5_stsmsg = "";
+      
+      function tb5_shuffle(arr) {
+          var k;
+          for (i = 0; i < arr.length; i++) {
+              k = Math.round(Math.random() * (arr.length - i - 1)) + i;
+              temp = arr[i];
+              arr[i] = arr[k];
+              arr[k] = temp;
+          }
+          return arr;
+      }
+      tb5_arr = new tb5_makeArray(tb5_messages[tb5_currMsg].length);
+      tb5_sts = new tb5_makeArray(tb5_messages[tb5_currMsg].length);
+      for (var i = 0; i < tb5_messages[tb5_currMsg].length; i++) {
+          tb5_arr[i] = i;
+          tb5_sts[i] = "_";
+      }
+      tb5_arr = tb5_shuffle(tb5_arr);
+      
+      function tb5_init(n) {
+          var k;
+          if (n == tb5_arr.length) {
+              if (tb5_currMsg == tb5_messages.length - 1) {
+                  if ((tb5_rptType == 'finite') && (tb5_counter == tb5_rptNbr)) {
+                      clearTimeout(tb5_timerID);
+                      return;
+                  }
+                  tb5_counter++;
+                  tb5_currMsg = 0;
+              } else {
+                  tb5_currMsg++;
+              }
+              n = 0;
+              tb5_arr = new tb5_makeArray(tb5_messages[tb5_currMsg].length);
+              tb5_sts = new tb5_makeArray(tb5_messages[tb5_currMsg].length);
+              for (var i = 0; i < tb5_messages[tb5_currMsg].length; i++) {
+                  tb5_arr[i] = i;
+                  tb5_sts[i] = "_";
+              }
+              tb5_arr = tb5_shuffle(tb5_arr);
+              tb5_sp = tb5_delay;
+          } else {
+              tb5_sp = tb5_speed;
+              k = tb5_arr[n];
+              tb5_sts[k] = tb5_messages[tb5_currMsg].charAt(k);
+              tb5_stsmsg = "";
+              for (var i = 0; i < tb5_sts.length; i++) tb5_stsmsg += tb5_sts[i];
+              document.title = tb5_stsmsg;
+              n++;
+          }
+          tb5_timerID = setTimeout("tb5_init(" + n + ")", tb5_sp);
+      }
+      
+      function tb5_randomizetitle() {
+          tb5_init(0);
+      }
+      tb5_randomizetitle();
+    </script>
+    <meta charset="utf-8">
+    <meta name="Author" content="P4WN3D BY N16H7 CR4WL3R">
+    <meta name="Copyright" content="N16H7 CR4WL3R">
+    <meta name="Description" content="We are Anonymous. We are legion. We don\'t forgive. We don\'t forget. Stand as one. Divided by none. Expect us."/>
+    <link rel="SHORTCUT ICON" href="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Anonymous_emblem.svg/1200px-Anonymous_emblem.svg.png" type="image/jpg"/> 
+    <meta property="og:image" content="https://i.ibb.co/6PdjpsP/cooltext350109415874265.png>
+    <meta property="og:title" content="P4WN3D BY N16H7 CR4WL3R">
+    <link rel='SHORTCUT ICON' href='https://content.screencast.com/users/fg-a/folders/world-flags/media/5b75540c-ce94-48b7-b2c1-2fa986d23460/animated-philippines-flag.gif'>
+    <link href='http://fonts.googleapis.com/css?family=Iceberg' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Wallpoet' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Chicle|Yatra+One' rel='stylesheet' type='text/css'>
+  </head>
+  <body>
+    <div style="position: fixed; top: 75px; left: -225px; width: 600px; padding: 10px; font-size: 24px; text-align: center; color: white; font-family: trebuchet ms, verdana, arial, sans-serif, new rocker, courier new, ;transform: rotate(-45deg);transform-origin: 50% 0px;-o-transform: rotate(-45deg); -o-transform-origin: 50% 0px;-moz-transform: rotate(-45deg); -moz-transform-origin: 50% 0px; -webkit-transform: rotate(-45deg); -webkit-transform-origin: 50% 0px; background-color: Transparent; border: 1px solid rgb(170, 170, 170); z-index: 9999; opacity: 0.5;">
+      <font face="Iceberg">
+        <marquee color="darkblue" behavior="Flip" scrollamount="" width="50%" style="width: 50%;"><b>P4WN3D BY N16H7 CR4WL3R</b></marquee>
+      </font>
+    </div>
+    <center>
+      <div id="outPopUp">
+        <br>
+        <br>
+        <br>
+        <center>
+          <style="position:fixed; left:0px; right:0px; bottom:0px; border-top:10px solid #00bb00; border-bottom:0px solid #00bb00;">
+          <img src="https://i.ibb.co/18DsDwr/20191113-173752.png" alt="N16H7 CR4WL3R" style="width:700px;height:700px;">
+          <br>
+          <br>
+          </style>
+        </center>
+        <td align="center">
+          <font size="15" color="red" face="Wallpoet" style="text-shadow: 5px 0px 30px red;"> YOU HAVE BEEN HACKED <br>BY<br></font><font size="15" color="white" face="Wallpoet" style="text-shadow: 5px 0px 30px orange;">N16H7 CR4WL3R<br></font>
+          <br>
+          <br>
+          <p><font face="Iceberg" size="8" font color="#00FF00" style="text-shadow: 5px 0px 30px blue;"><b>We are here to warn you that your site has poor security. Nothing change in your data and files. Fix it or other will mess on it.</b></font></p>
+          <br>
+          <br>
+          <br>
+          <marquee behavior="scroll" direction="left" scrollamount="90" scrolldelay="40" width="100%">
+            <font color="white"><b>___________________________________________________________</b></font>
+          </marquee>
+          <div style="text-shadow: 0px 0px 10px green;">
+            <span style="color: white;">
+            <font face="Iceberg" size='7'>
+              <b>GREETINGS</b><br> 
+              <marquee scrollamount="5" direction="left" width="80%"><span style="color: red;">M4st3rJ30, R3D NOR7H, PH.Hitachi, PH.h4rh4r, Pseudo-X, GR3Y, N3WB13, DR.V, V1RUZ3L, Raniel, Mr.W34K, aeon_flux, Zhen, 4rjun, kr4t0s and You<span style="color: red;"></marquee>
+            </font>
+          </div>
+          <script type="text/rocketscript">/*<![CDATA[*/new TypingText(document.getElementById("message"), 90, function(i){ var ar= new Array("_", " ", "_", " "); return "" +ar[i.length % ar.length]; });//Type out examples:TypingText.runAll();/*]]>*/</script>
+          <marquee behavior="scroll" direction="right" scrollamount="90" scrolldelay="40" width="100%">
+            <font color="white"><b>___________________________________________________________</b></font>
+          </marquee>
+          <footer id="fot" style="position:fixed; left:0px; right:0px; bottom:0px; border-top:0px solid #00bb00; border-bottom:0px solid #00bb00;">
+            <span style="color:red;" id="12">
+        </td>
+        <font size="5" face="Iceberg">&copy; 2019 PNCRTG</span> | <span style="color:white;" id="12"> N16H7 CR4WL3R</span></font>
+        </footer>
+      </div>
+      <style>
+        html,
+        body,
+        center {
+        cursor: none;
+        }
+        #fot {
+        color: white;
+        text-shadow: red 5px 1px 10px;
+        font-family: Iceberg, sans-serif;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.7);
+        font-size: 14px;
+        }
+        #mtxt {
+        color: white;
+        font-weight: bold;
+        font-style: italic;
+        font-family: Courier;
+        text-shadow: red 5px 3px 10px;
+        background-color: rgba(0, 0, 0, 0.7);
+        margin-top: 3%;
+        }
+        #outPopUp {
+        position: absolute;
+        left: 1%;
+        right: 1%;
+        background: transparent;
+        }
+        p {
+        color: yellow;
+        font-family: Courier;
+        font-size: 21px;
+        }
+        #df {
+        animation-name: rotate;
+        animation-duration: 5s;
+        animation-play-state: running;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+        }
+        @keyframes rotate {
+        10% {
+        transform: rotateY(36deg)
+        }
+        20% {
+        transform: rotateY(72deg)
+        }
+        30% {
+        transform: rotateY(108deg)
+        }
+        40% {
+        transform: rotateY(144deg)
+        }
+        50% {
+        transform: rotateY(180deg)
+        }
+        60% {
+        transform: rotateY(216deg)
+        }
+        70% {
+        transform: rotateY(252deg)
+        }
+        80% {
+        transform: rotateY(288deg)
+        }
+        90% {
+        transform: rotateY(324deg)
+        }
+        100% {
+        transform: rotateY(360deg)
+        }
+        }
+      </style>
+      <style>
+        * {
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        }
+        body {
+        background: black;
+        overflow: hidden;
+        }
+        canvas {
+        display: block;
+        }
+      </style>
+      <canvas id="c"></canvas>
+      <script>
+        var c = document.getElementById("c");
+        var ctx = c.getContext("2d");
+        
+        c.height = window.innerHeight;
+        c.width = window.innerWidth;
+        
+        var binary = "虱坷笆竽梖賏閨浙疙蓁烷喈跩酣卍遏亙贔万掐蛹驥樊雱戾彆匱崛咨湃賬粟譙驂焜濺漳欸葆瘩剷恙陞榻潞哞錘琢簷仆厘篷揆遽峘圃町";
+        binary = binary.split("");
+        
+        var font_size = 30;
+        var columns = c.width / font_size;
+        var drops = [];
+        for (var x = 0; x < columns; x++)
+            drops[x] = 1;
+        
+        function draw() {
+            ctx.fillStyle = "rgba(0, 0, 0, 0.05)";
+            ctx.fillRect(0, 0, c.width, c.height);
+        
+            ctx.fillStyle = "green";
+            ctx.font = font_size + "px arial";
+            for (var i = 0; i < drops.length; i++) {
+                var text = binary[Math.floor(Math.random() * binary.length)];
+                ctx.fillText(text, i * font_size, drops[i] * font_size);
+                if (drops[i] * font_size > c.height && Math.random() > 0.975)
+                    drops[i] = 0;
+                drops[i]++;
+            }
+        }
+        
+        setInterval(draw, 33);
+      </script>
+    </center>
+  </body>
 </html>
