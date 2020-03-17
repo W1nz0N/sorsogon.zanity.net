@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html >
+<link rel="SHORTCUT ICON" href="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Anonymous_emblem.svg/1200px-Anonymous_emblem.svg.png" type="image/jpg"/> 
+<meta name="Author" content="CYB3R 4NON PH"/>
+<meta name="copyright" content="CYB3R 4NON PH"/>
+<meta name="description" content="We are Anonymous, We are legion, We don't forgive, We don't forget, United as one, Divided by zero, Expect us."/>
+<meta name="keywords" content="CYB3R 4NON PH - SECURITY TESTERS"/>
+<script>
+farbbibliothek = new Array(); 
+farbbibliothek[0] = new Array("#FF0000","#FF1100","#FF2200","#FF3300","#FF4400","#FF5500","#FF6600","#FF7700","#FF8800","#FF9900","#FFaa00","#FFbb00","#FFcc00","#FFdd00","#FFee00","#FFff00","#FFee00","#FFdd00","#FFcc00","#FFbb00","#FFaa00","#FF9900","#FF8800","#FF7700","#FF6600","#FF5500","#FF4400","#FF3300","#FF2200","#FF1100"); 
+farbbibliothek[1] = new Array("#00FF00","#000000","#00FF00","#00FF00"); 
+farbbibliothek[2] = new Array("#00FF00","#FF0000","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00"); 
+farbbibliothek[3] = new Array("#FF0000","#FF4000","#FF8000","#FFC000","#FFFF00","#C0FF00","#80FF00","#40FF00","#00FF00","#00FF40","#00FF80","#00FFC0","#00FFFF","#00C0FF","#0080FF","#0040FF","#0000FF","#4000FF","#8000FF","#C000FF","#FF00FF","#FF00C0","#FF0080","#FF0040"); 
+farbbibliothek[4] = new Array("#FF0000","#EE0000","#DD0000","#CC0000","#BB0000","#AA0000","#990000","#880000","#770000","#660000","#550000","#440000","#330000","#220000","#110000","#000000","#110000","#220000","#330000","#440000","#550000","#660000","#770000","#880000","#990000","#AA0000","#BB0000","#CC0000","#DD0000","#EE0000"); 
+farbbibliothek[5] = new Array("#000000","#000000","#000000","#FFFFFF","#FFFFFF","#FFFFFF"); 
+farbbibliothek[6] = new Array("#0000FF","#FFFF00"); 
+farben = farbbibliothek[4];
+function farbschrift() 
+{ 
+for(var i=0 ; i<Buchstabe.length; i++) 
+{ 
+document.all["a"+i].style.color=farben[i]; 
+} 
+farbverlauf(); 
+} 
+function string2array(text) 
+{ 
+for(var i=0 ; i<Buchstabe.length; i++) 
+{ 
+document.all["a"+i].style.color=farben[i]; 
+} 
+farbverlauf(); 
+} 
+function string2array(text) 
+{ 
+Buchstabe = new Array(); 
+while(farben.length<text.length) 
+{ 
+farben = farben.concat(farben); 
+} 
+k=0; 
+while(k<=text.length) 
+{ 
+Buchstabe[k] = text.charAt(k); 
+k++; 
+} 
+} 
+function divserzeugen() 
+{ 
+for(var i=0 ; i<Buchstabe.length; i++) 
+{ 
+document.write("<span id='a"+i+"' class='a"+i+"'>"+Buchstabe[i] + "</span>"); 
+} 
+farbschrift(); 
+} 
+var a=1; 
+function farbverlauf() 
+{ 
+for(var i=0 ; i<farben.length; i++) 
+{ 
+farben[i-1]=farben[i]; 
+} 
+farben[farben.length-1]=farben[-1]; 
+
+setTimeout("farbschrift()",30); 
+} 
+// 
+var farbsatz=1; 
+function farbtauscher() 
+{ 
+farben = farbbibliothek[farbsatz]; 
+while(farben.length<text.length) 
+{ 
+farben = farben.concat(farben); 
+} 
+farbsatz=Math.floor(Math.random()*(farbbibliothek.length-0.0001)); 
+} 
+setInterval("farbtauscher()",5000); 
+text= "S173 H4S B33N P4WN3D BY CYB3R  4NON  PH" ; //h 
+string2array(text);
+divserzeugen(); 
+//document.write(text); 
+</script>
+	<head>
+		<title>H4CK3D BY CYB3R 4NON PH</title>
+		<style> body{text-align: center; background-color: black;}img{text-align: center;}h1{color: black;text-align: center;font-family: Courier; text-shadow: 3px 2px 5px white;}h3{color: red;text-align: center;font-family: Courier;text-shadow: 2px 1px 3px white}h4{color: grey;text-align: center;font-family: Courier;}h5{color: white;text-align: center;font-family: Courier;text-shadow: 2px 1px 3px red}#kotak{width: 100%;height: 35px;background-color: gray;}#text{padding-top: 2px;font-size: 20px; color: black;font-family: Courier;text-shadow: 1px 1px 1px red;}</style>
+	</head><br>
+    <body bgcolor="black" background="https://1.bp.blogspot.com/-6CsOJUHaxzU/UO7H1jfxWGI/AAAAAAAACHo/Wa2ajy8IgF0/s1600/storm.gif">
+    <img src="https://i.ibb.co/6bb7fp8/CAPH.png" alt="CAPH" style="width:500px;height:500px;"><br>
+	<img src='https://media.giphy.com/media/MJttD4oi3Hg4M/giphy.gif'>
+	<h1><b>H4CK3D BY CYB3R 4NON PH</b></h1>
+	<h3>We are here to warn you<br>That your site security is too weak!<br>Patch it as soon as possible or else <br>We will come back to crash down your site!</h3>
+	<h4><pre><font size="5.9px">Anonymous is not a Group
+Anonymous is not an Organization
+Anonymous is an Idea
+and ideas are Bulletproof
+
+We are Anonymous, We are Legion, We do not Forgive,
+We do not Forget, United as One, Divided by Zero, 
+Expect Us!
+</font></pre></h4>
+	<h5>Greetings to All Hackers out there.<br>More Power Pinoy Hackers!!!</h5><br>
+	<div id='kotak'>
+	<marquee id='text'><b>[ BOSS_4NON ]--[ MR.KRUN6ZX ]--[ DR.V ]--[ F173 D373C70R ]--[ COO7BOYM4N ]--[ P3DR0 ]--[ SYST3M CR4SH ]--[ C0VID19 ]--[ YOU ]</b></marquee></div>
+	</body>
+</html>
